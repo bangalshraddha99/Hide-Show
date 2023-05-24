@@ -1,0 +1,137 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+      <title>Hide &amp; Show Template</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="x-apple-disable-message-reformatting">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" type="text/css" href="https://next-insurance-marketing.s3.us-west-2.amazonaws.com/fonts/gt-alpina/stylesheet.css">
+      <link rel="stylesheet" type="text/css" href="https://next-insurance-marketing.s3.us-west-2.amazonaws.com/fonts/graphik/stylesheet.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--[if IE]>
+      <style>
+         sup,sub {font-size: 80% !important; display: inline !important; line-height: 1em !important; vertical-align: top !important;}
+         sub {vertical-align: bottom !important;}
+         * { mso-line-height-rule: exactly;}
+      </style>
+      <![endif]-->
+      <!--[if gte mso 12]>
+      <style>
+         sup, sub {font-size: 100% !important; vertical-align: top !important; display: inline !important;}
+         sub {mso-text-raise:-0.15em;}
+         * {mso-line-height-rule: exactly;}
+      </style>
+      <![endif]-->
+      <!--[if mso]>
+      <style>
+         td, th, p, a, h1, h2, h3, h4, h5, h6{
+         mso-line-height-rule: exactly;
+         }
+      </style>
+      <![endif]-->
+      <!--[if gte mso 9]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+         </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <style type="text/css"> 
+         [style*="Graphik"] {
+         font-family: 'Graphik', sans-serif !important;
+         } 
+         [style*="GT Alpina"] {
+         font-family: 'GT Alpina', sans-serif !important;
+         } 
+      </style>
+      <style>
+         table{border-collapse: collapse;}.image{max-width: 100% !important;}@media screen and (max-width: 480px) and (orientation: portrait),(max-device-width: 480px) and (orientation: landscape),yahoo and (max-width: 480px),print and (max-width: 552) {*{box-sizing: border-box;word-break: break-word;-webkit-text-size-adjust:none;text-size-adjust:none;mso-line-height-rule:exactly;}html,body{width: 100vw}body{margin: 0px !important;padding: 0px !important;background-color: #ffffff !important;}.wrapper{background-color: #ffffff !important;}.body_table{box-shadow: none !important}.device_width{width: 100% !important; display: table;}.btn_width{width: 100% !important; margin: 0 auto !important;}/*Add mobile css here*/}
+      </style>
+      <style>
+         .x-gmail-data-detectors,.x-gmail-data-detectors *,[x-apple-data-detectors]{border-bottom: 0!important; cursor: default !important; color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;}
+      </style>
+      <style>
+         img {
+         image-rendering: -webkit-optimize-contrast;
+         filter: blur(0);
+         -webkit-filter: blur(0);
+         transform: translateZ(0);
+         -webkit-transform: translateZ(0);
+         }
+      </style><style>
+#HideShowToggle {
+  width: 100%;
+  text-align: center;
+}
+</style>
+   </head>
+   <body bgcolor="#ffffff" style="padding: 0px; margin: 0px;">
+      <div style="display: none; font-size: 0px; color: #0e2b42; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden;">Content</div>
+      <!-- to hide the body text and display preheader only -->
+      <div style="display: none; max-height: 0px; overflow: hidden;">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</div>
+      <table class="wrapper" width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" align="center" style="min-width: 100%; min-height: 100% background-color: #ffffff;">
+         <tbody>
+            <tr>
+               <td align="center">
+                  <center>
+                     <!-- main content start -->
+                     <table class="body_table device_width" width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0 auto; background-color: #ffffff;">
+                        <tbody>
+                           <tr>
+                              <td>
+                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; min-width: 100%;">
+                                    <tbody>
+                                       <tr>
+                                          <td align="center" valign="top">
+                                          </td>
+                                       </tr>
+                                       <!-- bullets start -->
+                                       <tr>
+                                          <td align="left" valign="top" style="padding-right: 20px; padding-left: 20px;">
+                                             <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; min-width:100%;">
+                                                <tbody><tr>
+                                                   <td align="left" valign="top" style="padding-bottom: 5px;">
+                                                      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse; min-width:100%;">
+                                                         <tbody><tr>
+                                                            
+                                                            <td width="555" align="left" valign="top" style="font-size:16px;line-height:20px;font-family:'Graphik-Regular', sans-serif; padding-bottom:0px; padding-left: 5px; color: #0e2b42;">
+                                                            <img id="HideShowToggle" class="big" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/ae52a6e2-ca6a-4d8e-8944-532f952aae85/0e247e84-b6f5-11ea-a34d-02cd85ee9da9/NI-30-Days-Activation-Onboarding-EM5-CA-V2.png" style="display:block;height:auto;border:0;width:600px;max-width:100%;" width="600" alt="SPOTLIGHT ON COMMERCIAL AUTO COVERAGE" title="SPOTLIGHT ON COMMERCIAL AUTO COVERAGE">
+                                                         </td>
+                                                            <td width="5" align="left" valign="top" style="font-size:14px;line-height:18px;color: #0e2b42;">
+                                                               <button onclick="myFunction()" style="border:none;background-color: transparent;"><a href="#" target="_self" style="font-size: 16px;font-weight: bold;color: black;text-decoration: none; z-index:999;">             
+                                                               <i class="material-icons"></i>
+                                                               </a></button>
+                                                         </td>
+                                                         </tr>
+                                                      </tbody></table>
+                                                   </td>
+                                                </tr>
+                                                
+                                             </tbody></table>
+                                          </td>
+                                       </tr>
+                                       <!-- bullets end -->
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <!-- main content end -->
+                  </center>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <script>
+function myFunction() {
+  var x = document.getElementById("HideShowToggle");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+   
+</body></html>
