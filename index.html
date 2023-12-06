@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Hide & Show Template</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="x-apple-disable-message-reformatting">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+      <!--[if IE]>
+      <style>
+         sup,sub {font-size: 80% !important; display: inline !important; line-height: 1em !important; vertical-align: top !important;}
+         sub {vertical-align: bottom !important;}
+         * { mso-line-height-rule: exactly;}
+      </style>
+      <![endif]-->
+      <!--[if gte mso 12]>
+      <style>
+         sup, sub {font-size: 100% !important; vertical-align: top !important; display: inline !important;}
+         sub {mso-text-raise:-0.15em;}
+         * {mso-line-height-rule: exactly;}
+      </style>
+      <![endif]-->
+      <!--[if mso]>
+      <style>
+         td, th, p, a, h1, h2, h3, h4, h5, h6{
+         mso-line-height-rule: exactly;
+         }
+      </style>
+      <![endif]-->
+      <!--[if gte mso 9]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+         </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <style>
+      table{border-collapse: collapse;}.image{max-width: 100% !important;}@media screen and (max-width: 480px) and (orientation: portrait),(max-device-width: 480px) and (orientation: landscape),yahoo and (max-width: 480px),print and (max-width: 552) {*{box-sizing: border-box;word-break: break-word;-webkit-text-size-adjust:none;text-size-adjust:none;mso-line-height-rule:exactly;}html,body{width: 100vw}body{margin: 0px !important;padding: 0px !important;background-color: #ffffff !important;}.wrapper{background-color: #ffffff !important;}.body_table{box-shadow: none !important}.device_width{width: 100% !important; display: table;}.btn_width{width: 100% !important; margin: 0 auto !important;}}
+      .x-gmail-data-detectors,.x-gmail-data-detectors *,[x-apple-data-detectors]{border-bottom: 0!important; cursor: default !important; color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;}
+         img {
+         image-rendering: -webkit-optimize-contrast;
+         filter: blur(0);
+         -webkit-filter: blur(0);
+         transform: translateZ(0);
+         -webkit-transform: translateZ(0);
+         }
+         body{font-family: 'Nova Square', sans-serif;}
+         #HideShowToggle {
+         width: 100%;
+         text-align: center;
+         }
+         div {
+         width: 100%;
+         background-color: skyblue;
+         position: relative;
+         animation-name: example;
+         animation-duration: 4s;
+         }@keyframes example {
+         0%   {background-color:#EC8F5E; left:0px; top:0px;}
+         25%  {background-color:#F3B664; left:200px; top:0px;}
+         50%  {background-color:#F1EB90; left:200px; top:200px;}
+         75%  {background-color:#BEADFA; left:0px; top:200px;}
+         100% {background-color:#FF9209; left:0px; top:0px;}
+         }
+      </style>
+   </head>
+   <body bgcolor="#ffffff" style="padding: 0px; margin: 0px;">
+      <div style="display: none; font-size: 0px; color: #0e2b42; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden;">Content</div>
+      <table class="wrapper" width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" align="center" style="min-width: 100%; min-height: 100% background-color: #ffffff;">
+         <tbody>
+            <tr>
+               <td align="center">
+                  <center>
+                     <!-- main content start -->
+                     <table class="body_table device_width" width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0 auto; background-color: #ffffff;">
+                        <tbody>
+                           <tr>
+                              <td align="left" valign="top" style="padding-right: 20px; padding-left: 20px;">
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; min-width:100%;">
+                                    <tr>
+                                       <td align="left" valign="top" style="padding-bottom: 5px;">
+                                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse; min-width:100%;">
+                                             <tr>
+                                                <td width="555" align="left" valign="top" style="font-size:1.5rem;line-height:2.5;padding-bottom:0px; padding-left: 5px;">
+                                                   <div>
+                                                      <p id="HideShowToggle" style="display:block;">
+                                                         Click on 'X' to hide this transition
+                                                      </p>
+                                                   </div>
+                                                </td>
+                                                <td width="5" align="left" valign="top" style="font-size:16px;line-height:1;">
+                                                   <button onclick="myFunction()" style="border:none;background-color: transparent;">
+                                                   <a href="#" target="_self" style="font-size: 16px;font-weight: bold;color: black;text-decoration: none; z-index:999;">             
+                                                   <i class="material-icons">&#xe5cd;</i>
+                                                   </a></button>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <!-- main content end -->
+                  </center>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <script>
+         function myFunction() {
+           var x = document.getElementById("HideShowToggle");
+           if (x.style.display === "none") {
+             x.style.display = "block";
+           } else {
+             x.style.display = "none";
+           }
+         }
+      </script>
+   </body>
+</html>
